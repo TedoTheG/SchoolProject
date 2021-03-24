@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="bg">
 <head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>А. Константинов</title>
+    <title>Лит подготовка</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -15,13 +16,16 @@
     <header id=header>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Начало</a>
+                <a class="navbar-brand" " href="index.html">Алеко Константинов</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Начало</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">За нас</a>
                       </li>
@@ -38,14 +42,37 @@
                         <a class="dropdown-item" href="lesson3.html">прави избор</a>
                       </div>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Контакти</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Контакти</a>
                     </li>
                   </ul>
                 </div>
               </nav>
         </div>
     </header>
- 
+ <main class="container">
+  <h1 class=" display-3 my-2">
+    Контакти</h1>
+  <form class="my-2">
+    <div class="form-group">
+      <label for="exampleInputName">Име</label>
+      <input type="text" class="form-control" id="exampleInputName" aria-describedby="name" placeholder="Име Фамилия">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Имейл</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Въведете имейл за връзка">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Съобщение</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn"style="background:#E0B336;">Submit</button>
+  </form>
+ </main>
+ <footer>
+  <div class="bg-gorchica text-white text-center p-3">
+    <h4>Всички права са запазени &copy;2021</h4>
+  </div>
+</footer>
 </body>
 </html>
