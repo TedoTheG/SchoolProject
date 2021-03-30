@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-background:#F8F9FA;
+    background:#F8F9FA;
 }
 
 #header{
@@ -12,26 +12,42 @@ background:#F8F9FA;
 main{
     min-height: 90vh;
 }
+
 .bg-gorchica{
     background:#e0b336;
 }
+
 .intro{
     font-size: 1.5rem;
 }
+
 a, a:hover{
- text-decoration: none;
- color: black;
+    text-decoration: none;
+    color: black;
 }
+
 .dropdown-item:hover{
-background: rgba(0, 0, 0, 0.158);
+    background: rgba(0, 0, 0, 0.158);
 
 }
+
 #logo{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
 .aboutUs{
     font-size: 1.5rem;
 }
+
+.font{
+    font-family: Arial Nova Cond Light;
+}
+
+.subtitle{
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
